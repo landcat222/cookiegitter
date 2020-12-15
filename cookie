@@ -2,4 +2,4 @@
 from cookiecutter.main import cookiecutter
 from sys import argv
 from subprocess import call
-call(["cookie.sh",cookiecutter(argv[1])])
+call(["gitter",cookiecutter(argv[1])])
