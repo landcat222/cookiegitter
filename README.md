@@ -26,10 +26,6 @@ cd cookiegitter
 PROJECT=`cookiecutter TEMPLATE`
 cd $PROJECT
 git init
-mkdir .github
-cd .github
-git submodule add https://github.com/stevemao/github-issue-templates.git
-cd ..
 git add *
 git commit -m "Initial commit"
 hub create
