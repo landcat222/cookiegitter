@@ -1,6 +1,10 @@
 #!/bin/sh
 cd $1
 git init
+mkdir .github
+cd .github
+git submodule add https://github.com/stevemao/github-issue-templates.git
+cd ..
 git add *
 git commit -m "Initial commit"
 hub create
